@@ -21,6 +21,27 @@ main {
 
 #currentTime {
     text-align: center;
+    font-size: 200px;
+    color: white;
+}
+
+#countUp {
+    text-align: center;
     font-size: 300px;
     color: lime;
+}
+
+#buttonBox {
+    text-align: center;
+}
+
+.easybtn {
+	vertical-align: baseline;
+	line-height: 1;
+	white-space: nowrap;
+	background-color: darkgreen;
+}
+
+#startButton {
+    background-color:royalblue;
 }

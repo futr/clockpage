@@ -8,14 +8,20 @@ function updateClock()
     let currentElem = document.getElementById( "currentTime" );
 
     currentElem.innerText = nowStr;
+    
+    if ( startTime != null ) {
+        let countUpElem = document.getElementById( "countUp" );
+        let countUpSec = dateFns.differenceInSeconds( time, startTime );
+        let countUpStr = new Date( countUpSec * 1000 ).toISOString().substr( 11, 8 );
+        countUpElem.innerText = countUpStr;
+    }
 }
 
 window.addEventListener( "DOMContentLoaded", () => {
-
-    // Stop button
-    //document.getElementById( "stopBtn" ).onclick = e => {
-    //    janus.destroy();
-    //};
+    document.getElementById( "startButton" ).onclick = e => {
+        startTime = new Date();
+        
+    };
 
     setInterval( updateClock, 500 );
 });
