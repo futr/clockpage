@@ -40,6 +40,7 @@ window.addEventListener( "DOMContentLoaded", () => {
         updateClock();
     };
 
+    updateClock();
     setInterval( updateClock, 1000 );
 });
 

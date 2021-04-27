@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: arial, sans-serif;
+	background-color: black;
     margin: 0px;
     padding: 0px;
 	width: 100%;
@@ -12,7 +12,6 @@ body {
 
 main {
 	display: block;		/* IE対処 */
-	background-color: black;
 	margin: 0px;
     padding: 0px;
 	width: 100%;
@@ -22,14 +21,14 @@ main {
 #currentTime {
     font-family: monospace;
     text-align: center;
-    font-size: 15vw;
+    font-size: 12vw;
     color: gainsboro;
 }
 
 #countUp {
     font-family: monospace;
     text-align: center;
-    font-size: 20vw;
+    font-size: 18vw;
     color: springgreen;
 }
 
