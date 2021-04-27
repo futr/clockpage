@@ -20,15 +20,17 @@ main {
 }
 
 #currentTime {
+    font-family: monospace;
     text-align: center;
-    font-size: 200px;
-    color: white;
+    font-size: 15vw;
+    color: gainsboro;
 }
 
 #countUp {
+    font-family: monospace;
     text-align: center;
-    font-size: 300px;
-    color: lime;
+    font-size: 20vw;
+    color: springgreen;
 }
 
 #buttonBox {
